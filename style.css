@@ -1,0 +1,89 @@
+h1 {
+    color: #fff;
+    padding: 2%;
+}
+body {
+    padding: 1%;
+    margin: 1%;
+}
+header {
+    color: #000;
+    background: rgba(0, 0, 0, 0.349);
+    background-image: url("ironman.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 2%;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    margin: 20px;
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    background: #fff;
+    opacity: 0.3;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.left {
+    background: #808000;
+    width: 22%;
+    float: left;
+    display: inline-block;
+    padding: 5% 0;
+}
+.left img {
+    border: solid 2px #000;
+    width: 80%;
+    margin: 15% 10% 50% 10%;
+}
+img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border: solid 2px #000;
+}
+.active {
+    opacity: 1;
+}
+.right {
+    padding-left: 1%;
+    float: right;
+    width: 77%;
+    margin-top: 10px;
+}
+th {
+    background-color: #9acd32;
+    padding: 2%;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #339933;
+}
+th,tr td {
+    text-align: center;
+}
+tr td {
+    opacity: 0.6;
+}
+tr:hover td {
+    opacity: 1;
+    color: #339933;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 60px;
+}
+td {
+    background-color: #90ee90;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #FFF;
+}
